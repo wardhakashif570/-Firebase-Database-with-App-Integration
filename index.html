@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.24.0/firebase-database.js"></script>
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBHDk8PUPTVVLWsHlyQ2lPhJY6MURf5qPs",
+    authDomain: "smit-d2304.firebaseapp.com",
+    databaseURL: "https://smit-d2304.firebaseio.com",
+    projectId: "smit-d2304",
+    storageBucket: "smit-d2304.appspot.com",
+    messagingSenderId: "756009195529",
+    appId: "1:756009195529:web:54998e197f1d2e791c00d8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+</head>
+<body>
+    
+<div>
+<input type="text" id="name" placeholder="name"/>
+<input type="text" id="roll"placeholder="roll"/>
+<button onclick= "saveData()" >Save Data</button>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>
